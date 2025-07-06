@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using neApi.Data;
@@ -10,7 +11,8 @@ namespace neApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    [Authorize]
+   public class ValuesController : ControllerBase
     {
         private readonly BookContext context;
         private readonly IBookRepository bookRepository;
@@ -23,6 +25,7 @@ namespace neApi.Controllers
 
         [Route("get-all")]
         [HttpGet]
+     
         public async Task<IActionResult> GetAllBook()
         {
          var books=await bookRepository.GetAllBookAsync();
