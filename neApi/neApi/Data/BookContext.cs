@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using neApi.model;
 
 namespace neApi.Data
 {
-    public class BookContext:DbContext
+    public class BookContext:IdentityDbContext<ApplicationUser>
     {
    
 

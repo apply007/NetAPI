@@ -69,3 +69,6 @@ E:\Practice Projects\.net\neApi\neApi\obj\Debug\net6.0\neApi.genruntimeconfig.ca
 E:\Practice Projects\.net\neApi\neApi\obj\Debug\net6.0\ref\neApi.dll
 E:\Practice Projects\.net\neApi\neApi\bin\Debug\net6.0\AutoMapper.dll
 E:\Practice Projects\.net\neApi\neApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Practice Projects\.net\neApi\neApi\obj\Debug\net6.0\neApi.sourcelink.json
+E:\Practice Projects\.net\neApi\neApi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Practice Projects\.net\neApi\neApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
